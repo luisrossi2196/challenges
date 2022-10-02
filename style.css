@@ -50,8 +50,8 @@ body {
 }
 
 .container {
-  width: 40%;
-  min-width: 660px;
+  width: 50%;
+  min-width: 700px;
   background-color: var(--white);
 }
 
