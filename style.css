@@ -67,7 +67,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 .image {
@@ -118,6 +118,7 @@ body {
 
 .product__btn {
   display: flex;
+  font-size: 0.8rem;
   justify-content: center;
   gap: 1rem;
   background-color: var(--darkcyan);
@@ -139,12 +140,13 @@ body {
 
 /* mobile styling */
 
-@media (max-width: 660px) {
+@media (max-width: 699px) {
   .row {
     flex-direction: column;
     align-items: center;
   }
   .container {
+    margin-top: 2.5rem;
     min-width: 380px;
   }
   .image,
