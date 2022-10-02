@@ -18,8 +18,13 @@
     <main class="home__display">
       <section class="container row rounded">
         <picture class="image">
-          <source srcset="/images/mobile.jpg" media="(max-width: 660px)" />
-          <img class="img-rounded" src="/images/desktop.jpg" alt="chanel perfume"/>
+          <source srcset="/images/mobile.jpg" media="(max-width: 699px)" />
+          <source srcset="/images/desktop.jpg" media="(min-width: 700px)" />
+          <img
+            class="img-rounded"
+            src="/images/desktop.jpg"
+            alt="chanel perfume"
+          />
         </picture>
         <div class="product__content">
           <span class="product__type">Perfume</span>
